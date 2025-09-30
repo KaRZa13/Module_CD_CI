@@ -85,7 +85,7 @@ git push origin feature/ajout-profil-nom
 
 ## 👥 Crédits
 
-* Rafael M.
+* Rafael MURO.
 * Matt PEAU
 * Ethan RAMPNOUX
 * Nicolas CHICHE
