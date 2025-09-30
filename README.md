@@ -27,7 +27,7 @@ Toutes les contributions passent par **Git** et la validation se fait via **pull
 
 ### 🖼️ Maquette
 
-👉 [Lien vers la maquette](https://stitch.withgoogle.com/) (ou capture Figma/Penpot selon ton choix).
+👉 [Lien vers la maquette](https://karza13.github.io/Module_CD_CI/).
 
 ---
 
