@@ -23,7 +23,7 @@ class FreelanceManager {
         localStorage.setItem('freelanceProfiles', JSON.stringify(this.profiles));
     }
 
-    // Chargement de données d'exemple (si aucun profil existant)
+    // Chargement de données d'exemple (si aucun profil existant))
     loadSampleData() {
         if (this.profiles.length === 0) {
             const sampleProfiles = [
