@@ -36,9 +36,12 @@ Toutes les contributions passent par **Git** et la validation se fait via **pull
 Nous accueillons toutes les contributions ! 🎉
 
 ### 1. Fork et clone
+Cloner le répo et se placer sur la branche develop
+Créer une nouvelle branche feature/<nom_de_la_feature>
 
 ```bash
 git clone https://github.com/<votre_repo>.git
+git checkout develop
 git checkout -b feature/ajout-profil-nom
 ```
 
@@ -60,10 +63,11 @@ git checkout -b feature/ajout-profil-nom
 * Exemple : nouvelle section FAQ, amélioration du design, etc.
 
 ### 4. Commit et push
+Pour le message du commit, préciser le nom de feature et une description rapide de celle-ci
 
 ```bash
 git add .
-git commit -m "Ajout profil Rafael M."
+git commit -m "Feat/<description de la feature>"
 git push origin feature/ajout-profil-nom
 ```
 
@@ -89,6 +93,7 @@ git push origin feature/ajout-profil-nom
 * Matt PEAU
 * Ethan RAMPNOUX
 * Nicolas CHICHE
+* Colin MORLION
 
 ---
 
