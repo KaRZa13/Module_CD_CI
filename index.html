@@ -21,6 +21,9 @@
                     <button id="addProfileBtn" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">
                         Ajouter un profil
                     </button>
+                    <button id="showArticlesBtn" class="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600 transition">
+                        Articles
+                    </button>
                 </div>
             </div>
         </div>
@@ -53,6 +56,27 @@
             </div>
             <div id="profilesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Les cartes de profils seront générées ici -->
+            </div>
+        </section>
+
+        <!-- Articles Section (Initially Hidden) -->
+        <section id="articlesSection" class="hidden mb-12">
+            <div class="flex justify-between items-center mb-8">
+                <h3 class="text-3xl font-bold text-gray-800">Articles & Ressources</h3>
+            </div>
+            <div id="articlesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h4 class="text-xl font-semibold mb-2">Comment choisir un développeur freelance</h4>
+                    <p class="text-gray-600">Un guide rapide pour évaluer les compétences, le portfolio et la communication.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h4 class="text-xl font-semibold mb-2">Design UI/UX : bonnes pratiques</h4>
+                    <p class="text-gray-600">Conseils pour améliorer l'expérience utilisateur et la conversion.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h4 class="text-xl font-semibold mb-2">Optimiser vos annonces</h4>
+                    <p class="text-gray-600">Rédiger une annonce claire permet d'attirer de meilleurs profils.</p>
+                </div>
             </div>
         </section>
 
@@ -130,6 +154,7 @@
         </div>
     </footer>
 
+    <script src="profiles.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
