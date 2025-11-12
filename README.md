@@ -40,22 +40,14 @@ Cloner le répo et se placer sur la branche develop
 Créer une nouvelle branche feature/<nom_de_la_feature>
 
 ```bash
-git clone https://github.com/<votre_repo>.git
+git clone https://github.com/KaRZa13/Module_CD_CI.git
 git checkout develop
 git checkout -b feature/ajout-profil-nom
 ```
 
 ### 2. Ajouter un profil
 
-* Créez un fichier dans `/profils/` au format **Markdown**.
-  Exemple : `profils/rafael-m.md`
-
-```markdown
-# Rafael M.
-- 💼 Développeur Fullstack
-- 🚀 Spécialisé en Vue.js, Node.js, Supabase
-- ✉️ Contact : rafael@example.com
-```
+* Aller sur le site et ajouter votre profil dans la section "Ajoute un profil"
 
 ### 3. Proposer une fonctionnalité
 
@@ -81,9 +73,9 @@ git push origin feature/ajout-profil-nom
 
 ## ⚙️ CI/CD
 
-* Build et validation via GitHub Actions (ou GitLab CI).
-* Vérification automatique des formats (profils Markdown/YAML).
-* Déploiement automatique sur GitHub Pages/GitLab Pages après merge.
+* Build et validation via GitHub Actions.
+* Vérification automatique des formats.
+* Déploiement automatique sur GitHub Pages après merge.
 
 ---
 
